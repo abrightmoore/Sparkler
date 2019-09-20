@@ -181,7 +181,7 @@ class Game:
 					newObjects.append(o)
 			#COL.render(surface)					
 			pygame.display.update()
-			o = newObjects
+			objects = newObjects
 			
 			current_milli_time2 = pygame.time.get_ticks() #int(round(time.time() * 1000))
 			timeDelta = current_milli_time2-current_milli_time
